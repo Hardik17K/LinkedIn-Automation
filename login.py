@@ -6,8 +6,8 @@ from selenium.webdriver.common.by import By
 
 class Login:
     def __init__(self):
-        self.email = "kumarhardik1708@gmail.com" #argparse
-        self.password = "BBHbanungaBC"#input("Enter password : ") #argparse
+        self.email = "YOUR_EMAIL" #argparse
+        self.password = "YOUR_PASSWORD"#input("Enter password : ") #argparse
 
     def login(self, base_link, driver):
         driver.get(base_link)
